@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background: #191919;
+  color: #d4d4d4;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 4.2rem;
+  line-height: 1.5;
+}
+h3 {
+  font-size: 2.4rem;
+  line-height: 1.8;
+  padding: 3px 2px;
+  margin-top: 3rem;
+}
+p,
+li,
+ol {
+  padding: 3px 2px;
+  line-height: 1.8;
+  font-size: 1.6rem;
+  list-style: none;
+}
+p {
+  margin-bottom: 1.5rem;
+}
+.container {
+  margin: 0 auto;
+}
+.header-image-container {
+  background: url(https://basalt-castanet-c19.notion.site/images/page-cover/woodcuts_2.jpg);
+  width: 100vw;
+  height: 30vh;
+  background-size: cover;
+  background-position: fixed;
+  object-fit: center 20%;
+}
+.header-title-logo-container {
+  display: flex;
+  flex-flow: column;
+  margin-top: -4rem;
+}
+.header-title-logo-container img {
+  width: 7.8rem;
+  height: 7.8rem;
+}
+main {
+  max-width: 70.1rem !important;
+  margin: 0 auto;
+}
+.title {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+}
+.table-container{
+     overflow-x: auto;
+}
+.table-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.table-container::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: #292927;
+  border-radius: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+  background: #c1c1c1;
+}
+
+table {
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+}
+th,
+td {
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  padding: 12px 15px;
+  text-align: center;
+}
